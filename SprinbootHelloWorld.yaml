@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: k8s-demo
-        image: ksashi/springhellojenkinsdockerk8s:1.0    
+        image: ksashi/springhellojenkinsdockerk8s:2.0    
         ports:
         - name: http-port
           containerPort: 8080
