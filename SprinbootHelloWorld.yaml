@@ -14,7 +14,7 @@ spec:
         app: springhello
     spec:
       containers:
-      - name: ksashi/sashispringjenkinsimage:1.0
+      - name: ksashi/sashispringjenkinsimage:2.0
         ports:
         - name: http-port
           containerPort: 8080
