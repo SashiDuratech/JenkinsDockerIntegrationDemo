@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: springhello
-        image: ksashi/pipeline
+        image: ksashi/pipeline:latest
         ports:
         - name: http-port
           containerPort: 8080
