@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: springhello
-        image: ksashi/qkspringjenkinsdemo:1.0
+        image: ksashi/pipeline
         ports:
         - name: http-port
           containerPort: 8080
